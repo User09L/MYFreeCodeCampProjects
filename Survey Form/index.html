@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+      <link rel="stylesheet" type="text/css" href="styles.css" />
+      <meta charset="UTF-8">
+      <meta name="description" content="Survey Form">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Survey Form using Html and Css</p>
+    <form id="survey-form">
+      <fieldset id="1st">
+        <label id="name-label">Enter Your Name: <input type="text" id="name" placeholder="Please enter your name" required /></label>
+        <label id="email-label">Enter Your Email: <input type="email" id="email" placeholder="Please enter your email" required /></label>
+        <label id="age-label">Enter Your Age: <input type="number" id="age" min="13" max="120" required /></label>
+        <label><input type="radio" class="inline" name="Gender" value="1" /> Male</label>
+        <label><input type="radio" class="inline" name="Gender" value="2" /> Female</label>
+        <label><input type="radio" class="inline" name="Gender" value="3" /> Other</label>
+      </fieldset>
+      <fieldset id="2nd">
+        <label id="number-label">Enter Your Favorite Number: <input type="number" id="number" min="0" max="100" placeholder="Enter a number" required /></label>
+        <label>Enter Favorite Hobbies?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Games</option>
+            <option value="2">Movies and Series</option>
+            <option value="3">Music</option>
+            <option value="4">Novels</option>
+          </select>
+        </label>
+
+      </fieldset>
+      <fieldset id="3rd">
+        
+        <label id="n-label">Enter Feedback and other Concern:
+          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      <label><input type="checkbox" class="inline" name="terms" value="Accept" required /> I accept the terms and conditions</label>
+      <label><input type="checkbox" class="inline name="other term" value="Accept2" required /> I accept the other terms and conditions</label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+</htlm>
