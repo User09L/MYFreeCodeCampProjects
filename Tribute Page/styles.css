@@ -1,0 +1,75 @@
+
+/*
+*{
+  padding: solid red;
+  border: solid red;
+}
+*/
+
+
+
+header{
+  background: #eee;
+  }
+#title{
+text-align: center;
+
+}
+
+header p{
+text-align: center;
+}
+
+img{
+max-width: 100%;
+display: block;
+height: auto;
+margin: 0 auto;
+}
+
+
+#img-div,#img-caption{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0px auto;
+}
+
+.info{
+background: #eee;
+margin-bottom: 10px;
+
+
+}
+
+.headline{
+  margin: 30px 0;
+  text-align: center;
+  /*margin: solid red;*/
+}
+
+ul{
+  margin-top: 30px;
+  width: 400px;
+  margin: 0 auto 10px auto;
+
+  
+}
+li{
+  margin-bottom: 30px; 
+  
+}
+.quote p{
+margin: 0 auto 10px auto;
+text-align: center;
+
+}
+  
+
+  
+  
+  
+  
+  
+  
