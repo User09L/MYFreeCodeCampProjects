@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 60%;
+    }
+  }
+#navbar{
+    top: 0;
+    right:0;
+    position: fixed;
+
+
+}
+
+.nav-list{
+    list-style-type: none; 
+    overflow: hidden;
+    margin: 0;
+    margin-top: 0px;
+    padding:0px;
+    width: 2000px;
+    background-color: #be3144;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-list li{
+    float: right;
+    margin:10px;
+    margin-right:50px;
+    font-size: 25px;
+}
+
+#welcome-section{
+    background-color: #2a2e2f;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 500px;
+    color: gray;
+    font-size: 30px;
+}
+#colored-text {
+    color: #be3144;
+}
+
+
+.project-tile {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+  }
+
+.project-tile > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#projects, .project-tile{
+    background-color: #45567d;
+}
+
+#projects a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#projects h1{
+    text-align: center;
+
+}
+#Contact{
+    background-color: #2a2e2f;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
